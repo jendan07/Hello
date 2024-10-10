@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+            border-bottom: 2px solid #ff98d3;
+        }
+
+        th, td{
+            border: 1px solid #f569bb;
+            padding: 8px;
+            
+        }
+
+        thead > tr{
+            background-color: #e63b9f;
+            color: rgb(255, 194, 204);
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: #cb77a7;
+        }
+
+        body{
+            background-color: rgb(255, 252, 191);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #hoved{
+            margin: 20px;
+            padding: 20px;
+            background-color: pink;
+            border: 1px solid #cccccc;
+
+        }
+
+        h1, h2{
+            font-family: arial;
+        }
+
+        #hoved2{
+            width: 60%;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: white;
+            border: 1px solid #f569bb;
+        }
+
+        ul{
+            width: 80%;
+            padding: 0px;
+            list-style: none;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+
+        }
+
+        ul li{
+            border-bottom: 1px solid #cccccc;
+            padding: 15px;
+        }
+        ul li:last-child{
+            border-bottom: 0px;
+        }
+        
+
+        ol{
+            width: 80%;
+            padding: 0px;
+            list-style: none;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+
+        ol li{
+            border-bottom: 1px solid #cccccc;
+            padding: 15px;
+        }
+        ol li:last-child{
+            border-bottom: 0px;
+        }
+
+        li{
+            background-color: #cb77a7;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="hoved">
+        <h1>Tabell</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Vår Butikk</th>
+                </tr>
+                <tr>
+                    <th>Produkter</th>
+                    <th>Priser (kr)</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kjole</td>
+                    <td>1200 kr</td>
+                </tr>
+                <tr>
+                    <td>Ullgenser</td>
+                    <td>999 kr</td>
+                </tr>
+                <tr>
+                    <td>Ola bukser</td>
+                    <td>699 kr</td>
+                </tr>
+                <tr>
+                    <td>Skjørt</td>
+                    <td>489 kr</td>
+                </tr>
+                <tr>
+                    <td>Sløyfer</td>
+                    <td>299 kr</td>
+                </tr>
+    
+            </tbody>
+        </table>
+    </div>
+    <div id="hoved2">
+        <h1>Tilbehør</h1>
+        
+        <h2>Hårpynt</h2>
+        <ul>
+            <li>Strikker</li>
+            <li>Hårbøyler</li>
+            <li>Spenner</li>
+        </ul>
+
+        <h2>Smykker</h2>
+        <ol>
+            <li>Øredobber</li>
+            <li>Halskjeder</li>
+            <li>Ringer</li>
+        </ol>
+
+    </div>
+
+
+</body>
+</html>
